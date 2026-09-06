@@ -3,7 +3,7 @@ name: VS2026
 on: [push, pull_request]
 
 env:
-  FRIENDLY_NAME: Base Console
+  FRIENDLY_NAME: zdecrypt
   CONFIGURATION: Release
 
 jobs:
