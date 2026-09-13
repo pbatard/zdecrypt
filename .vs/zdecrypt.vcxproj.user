@@ -1,4 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>"C:\Projects\zdecrypt\Backup_Restore.json"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArgumentsHistory>fR5qvHpIXjKdrAzHlSBWcA==|zGoLBx69/EvAkAqvhNBB2c8ZsVS07mWYksRbClHsAvw=|91LfEh03M4YToQN3q0x6NQ==|Bf/35uoN+/mWIkXaCQ9PqA==|"C:\Projects\zdecrypt\Backup_Restore.json"|</LocalDebuggerCommandArgumentsHistory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>"C:\Projects\zdecrypt\Backup_Restore.json"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>"C:\Projects\zdecrypt\Backup_Restore.json"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArgumentsHistory>"C:\Projects\zdecrypt\Backup_Restore.json"|</LocalDebuggerCommandArgumentsHistory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>"C:\Projects\zdecrypt\Backup_Restore.json"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>

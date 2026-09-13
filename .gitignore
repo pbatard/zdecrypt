@@ -9,6 +9,7 @@
 *.htm
 *.idb
 *.ipch
+*.json
 *.la
 *.lo
 *.log
@@ -38,3 +39,5 @@ arm
 arm64
 x64
 x86
+.vs/vcpkg_installed
+.vs/zdecrypt
