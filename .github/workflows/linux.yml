@@ -1,6 +1,13 @@
 name: Linux
 
-on: [push, pull_request]
+on:
+  push:
+    paths-ignore:
+      - '**.md'
+  pull_request:
+    branches: [master]
+    paths-ignore:
+      - '**.md'
 
 jobs:
   build:
